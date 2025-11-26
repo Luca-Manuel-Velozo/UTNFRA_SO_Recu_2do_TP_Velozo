@@ -1,0 +1,15 @@
+# tasks file for Cambia_Propiedad_Velozo
+
+- name: Cambiar propietario y grupo de /UTN/Alumno
+  file:
+    path: /UTN/Alumno
+    owner: Alumno
+    group: GAlumnos
+    state: directory
+
+- name: Cambiar propietario y grupo de /UTN/Profesor
+  file:
+    path: /UTN/Profesor
+    owner: Profesor
+    group: GProfesores
+    state: directory  

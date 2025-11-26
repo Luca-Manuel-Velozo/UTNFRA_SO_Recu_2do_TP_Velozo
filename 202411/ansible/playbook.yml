@@ -1,0 +1,18 @@
+---
+- hosts: localhost
+  become: yes
+  roles: 
+
+  tasks:
+    - include_role:
+        name: 2PRecuperatorio
+    - include_role:
+        name: Crea_Carpetas_Velozo
+    - include_role:
+        name: Cambia_Propiedad_Velozo
+    - include_role:
+        name: Sudoers_Velozo 
+    - name: "Otra tarea"
+      debug:
+        msg: "Despues de la ejecucion del rol"
+

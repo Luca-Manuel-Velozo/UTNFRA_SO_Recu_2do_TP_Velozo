@@ -1,0 +1,28 @@
+---
+# tasks file for 2PRecuperatorio
+
+ - name: "Rol: 2PRecuperatorio"
+   debug:
+     msg: "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+
+ - name: "creo Grupos"
+   become: yes
+   ansible.builtin.group:
+     name: "{{ item }}"
+     state: present
+   with_items:
+    - GProfesores
+    - GAlumnos
+
+ - name: "creo usuarios Profesor"
+   ansible.builtin.user:
+     name: Profesor
+     create_home: yes
+     groups: GProfesores
+
+ - name: "creo usuarios Profesor"
+   ansible.builtin.user:
+     name: Alumno
+     create_home: yes
+     groups: GAlumnos 
+

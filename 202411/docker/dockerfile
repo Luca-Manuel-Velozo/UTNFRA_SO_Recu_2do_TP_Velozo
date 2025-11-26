@@ -1,0 +1,2 @@
+FROM nginx
+COPY index.html /home/LV/UTN-FRA_SO_Examenes/202411/docker/web/index.html

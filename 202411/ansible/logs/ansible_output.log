@@ -1,0 +1,310 @@
+2025-11-25 21:43:08,350 p=3173 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:43:08,596 p=3173 u=LV n=ansible | PLAY [all] ******************************************************************************************************************************************************************************************
+2025-11-25 21:43:08,596 p=3173 u=LV n=ansible | skipping: no hosts matched
+2025-11-25 21:43:08,596 p=3173 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:45:24,322 p=3193 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:45:24,425 p=3193 u=LV n=ansible | PLAY [all] ******************************************************************************************************************************************************************************************
+2025-11-25 21:45:24,425 p=3193 u=LV n=ansible | skipping: no hosts matched
+2025-11-25 21:45:24,426 p=3193 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:47:43,849 p=3204 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:47:43,916 p=3204 u=LV n=ansible | [WARNING]: While constructing a mapping from /home/LV/UTN-FRA_SO_Examenes/202411/ansible/playbook.yml, line 6, column 9, found a duplicate dict key (name). Using last defined value only.
+
+2025-11-25 21:47:43,946 p=3204 u=LV n=ansible | PLAY [all] ******************************************************************************************************************************************************************************************
+2025-11-25 21:47:43,946 p=3204 u=LV n=ansible | skipping: no hosts matched
+2025-11-25 21:47:43,946 p=3204 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:49:30,170 p=3207 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:49:30,241 p=3207 u=LV n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  could not find expected ':'. while scanning a simple key
+  in "<unicode string>", line 7, column 9
+could not find expected ':'
+  in "<unicode string>", line 9, column 5
+
+The error appears to be in '/home/LV/UTN-FRA_SO_Examenes/202411/ansible/playbook.yml': line 9, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: "Otra tarea"
+    ^ here
+
+2025-11-25 21:50:02,515 p=3211 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:50:02,610 p=3211 u=LV n=ansible | PLAY [all] ******************************************************************************************************************************************************************************************
+2025-11-25 21:50:02,611 p=3211 u=LV n=ansible | skipping: no hosts matched
+2025-11-25 21:50:02,613 p=3211 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:50:13,995 p=3213 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:50:14,091 p=3213 u=LV n=ansible | PLAY [all] ******************************************************************************************************************************************************************************************
+2025-11-25 21:50:14,092 p=3213 u=LV n=ansible | skipping: no hosts matched
+2025-11-25 21:50:14,092 p=3213 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:51:58,313 p=3216 u=LV n=ansible | [WARNING]: Unable to parse /inventory/hosts as an inventory source
+
+2025-11-25 21:51:58,313 p=3216 u=LV n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-11-25 21:51:58,316 p=3216 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:51:58,408 p=3216 u=LV n=ansible | PLAY [all] ******************************************************************************************************************************************************************************************
+2025-11-25 21:51:58,408 p=3216 u=LV n=ansible | skipping: no hosts matched
+2025-11-25 21:51:58,408 p=3216 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:54:23,270 p=3238 u=LV n=ansible | [WARNING]: Unable to parse /inventory/hosts as an inventory source
+
+2025-11-25 21:54:23,271 p=3238 u=LV n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-11-25 21:54:23,274 p=3238 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:54:23,369 p=3238 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 21:54:23,386 p=3238 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 21:54:24,843 p=3238 u=LV n=ansible | ok: [localhost]
+2025-11-25 21:54:24,844 p=3238 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:54:24,845 p=3238 u=LV n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-25 21:58:12,947 p=3355 u=LV n=ansible | [WARNING]: Unable to parse /inventory/hosts as an inventory source
+
+2025-11-25 21:58:12,947 p=3355 u=LV n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-11-25 21:58:12,950 p=3355 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:58:13,048 p=3355 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 21:58:13,054 p=3355 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 21:58:14,289 p=3355 u=LV n=ansible | ok: [localhost]
+2025-11-25 21:58:14,291 p=3355 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:58:14,291 p=3355 u=LV n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-25 21:59:35,975 p=3487 u=LV n=ansible | [WARNING]: Unable to parse /inventory/hosts as an inventory source
+
+2025-11-25 21:59:35,975 p=3487 u=LV n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2025-11-25 21:59:35,978 p=3487 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 21:59:36,074 p=3487 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 21:59:36,080 p=3487 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 21:59:37,223 p=3487 u=LV n=ansible | ok: [localhost]
+2025-11-25 21:59:37,224 p=3487 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 21:59:37,225 p=3487 u=LV n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-25 22:00:05,031 p=3593 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 22:00:05,129 p=3593 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 22:00:05,135 p=3593 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 22:00:06,336 p=3593 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:00:06,344 p=3593 u=LV n=ansible | TASK [include_role : 2PRecuperatorio Crea_Carpetas_Velozo] ******************************************************************************************************************************************
+2025-11-25 22:00:06,365 p=3593 u=LV n=ansible | ERROR! the role '2PRecuperatorio Crea_Carpetas_Velozo' was not found in /home/LV/UTN-FRA_SO_Examenes/202411/ansible/roles:/tmp:/home/LV/UTN-FRA_SO_Examenes/202411:/home/LV/UTN-FRA_SO_Examenes/202411/ansible
+
+The error appears to be in '/home/LV/UTN-FRA_SO_Examenes/202411/ansible/playbook.yml': line 8, column 15, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    - include_role:
+        name: 2PRecuperatorio
+              ^ here
+
+2025-11-25 22:00:06,366 p=3593 u=LV n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "reason": "the role '2PRecuperatorio Crea_Carpetas_Velozo' was not found in /home/LV/UTN-FRA_SO_Examenes/202411/ansible/roles:/tmp:/home/LV/UTN-FRA_SO_Examenes/202411:/home/LV/UTN-FRA_SO_Examenes/202411/ansible\n\nThe error appears to be in '/home/LV/UTN-FRA_SO_Examenes/202411/ansible/playbook.yml': line 8, column 15, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n    - include_role:\n        name: 2PRecuperatorio\n              ^ here\n"}
+2025-11-25 22:00:06,367 p=3593 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 22:00:06,367 p=3593 u=LV n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-11-25 22:02:44,453 p=3709 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 22:02:44,550 p=3709 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 22:02:44,555 p=3709 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 22:02:45,720 p=3709 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:02:45,728 p=3709 u=LV n=ansible | TASK [include_role : 2PRecuperatorio] ***************************************************************************************************************************************************************
+2025-11-25 22:02:45,755 p=3709 u=LV n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key. while parsing a block mapping
+  in "<unicode string>", line 8, column 4
+did not find expected key
+  in "<unicode string>", line 9, column 5
+
+The error appears to be in '/home/LV/UTN-FRA_SO_Examenes/202411/ansible/roles/2PRecuperatorio/tasks/main.yml': line 9, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ - name: "creo Grupos"
+    become: yes
+    ^ here
+
+2025-11-25 22:06:24,694 p=3834 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 22:06:24,794 p=3834 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 22:06:24,800 p=3834 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 22:06:26,146 p=3834 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:06:26,152 p=3834 u=LV n=ansible | TASK [include_role : 2PRecuperatorio] ***************************************************************************************************************************************************************
+2025-11-25 22:06:26,182 p=3834 u=LV n=ansible | included: 2PRecuperatorio for localhost
+2025-11-25 22:06:26,189 p=3834 u=LV n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] *******************************************************************************************************************************************************
+2025-11-25 22:06:26,201 p=3834 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2025-11-25 22:06:26,207 p=3834 u=LV n=ansible | TASK [2PRecuperatorio : creo Grupos] ****************************************************************************************************************************************************************
+2025-11-25 22:06:26,520 p=3834 u=LV n=ansible | changed: [localhost] => (item=GProfesores)
+2025-11-25 22:06:26,719 p=3834 u=LV n=ansible | changed: [localhost] => (item=GAlumnos)
+2025-11-25 22:06:26,725 p=3834 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:06:27,122 p=3834 u=LV n=ansible | changed: [localhost]
+2025-11-25 22:06:27,129 p=3834 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:06:27,393 p=3834 u=LV n=ansible | changed: [localhost]
+2025-11-25 22:06:27,404 p=3834 u=LV n=ansible | TASK [include_role : Crea_Carpetas_Velozo] **********************************************************************************************************************************************************
+2025-11-25 22:06:27,422 p=3834 u=LV n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key. while parsing a block mapping
+  in "<unicode string>", line 4, column 3
+did not find expected key
+  in "<unicode string>", line 5, column 5
+
+The error appears to be in '/home/LV/UTN-FRA_SO_Examenes/202411/ansible/roles/Crea_Carpetas_Velozo/tasks/main.yml': line 5, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: "Crear directorios en el directorio raíz"
+    file:
+    ^ here
+
+2025-11-25 22:09:06,447 p=4101 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 22:09:06,550 p=4101 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 22:09:06,555 p=4101 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 22:09:07,697 p=4101 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:09:07,703 p=4101 u=LV n=ansible | TASK [include_role : 2PRecuperatorio] ***************************************************************************************************************************************************************
+2025-11-25 22:09:07,726 p=4101 u=LV n=ansible | included: 2PRecuperatorio for localhost
+2025-11-25 22:09:07,732 p=4101 u=LV n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] *******************************************************************************************************************************************************
+2025-11-25 22:09:07,748 p=4101 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2025-11-25 22:09:07,755 p=4101 u=LV n=ansible | TASK [2PRecuperatorio : creo Grupos] ****************************************************************************************************************************************************************
+2025-11-25 22:09:08,033 p=4101 u=LV n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-25 22:09:08,215 p=4101 u=LV n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-25 22:09:08,222 p=4101 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:09:08,564 p=4101 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:09:08,570 p=4101 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:09:08,804 p=4101 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:09:08,815 p=4101 u=LV n=ansible | TASK [include_role : Crea_Carpetas_Velozo] **********************************************************************************************************************************************************
+2025-11-25 22:09:08,834 p=4101 u=LV n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key. while parsing a block mapping
+  in "<unicode string>", line 4, column 3
+did not find expected key
+  in "<unicode string>", line 5, column 4
+
+The error appears to be in '/home/LV/UTN-FRA_SO_Examenes/202411/ansible/roles/Crea_Carpetas_Velozo/tasks/main.yml': line 5, column 4, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: "Crear directorios en el directorio raíz"
+   file:
+   ^ here
+
+2025-11-25 22:10:37,007 p=4326 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 22:10:37,115 p=4326 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 22:10:37,122 p=4326 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 22:10:38,376 p=4326 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:10:38,382 p=4326 u=LV n=ansible | TASK [include_role : 2PRecuperatorio] ***************************************************************************************************************************************************************
+2025-11-25 22:10:38,404 p=4326 u=LV n=ansible | included: 2PRecuperatorio for localhost
+2025-11-25 22:10:38,410 p=4326 u=LV n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] *******************************************************************************************************************************************************
+2025-11-25 22:10:38,422 p=4326 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2025-11-25 22:10:38,428 p=4326 u=LV n=ansible | TASK [2PRecuperatorio : creo Grupos] ****************************************************************************************************************************************************************
+2025-11-25 22:10:38,707 p=4326 u=LV n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-25 22:10:38,883 p=4326 u=LV n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-25 22:10:38,891 p=4326 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:10:39,235 p=4326 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:10:39,241 p=4326 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:10:39,480 p=4326 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:10:39,491 p=4326 u=LV n=ansible | TASK [include_role : Crea_Carpetas_Velozo] **********************************************************************************************************************************************************
+2025-11-25 22:10:39,512 p=4326 u=LV n=ansible | included: Crea_Carpetas_Velozo for localhost
+2025-11-25 22:10:39,523 p=4326 u=LV n=ansible | TASK [Crea_Carpetas_Velozo : Crear directorios en el directorio raíz] *******************************************************************************************************************************
+2025-11-25 22:10:39,822 p=4326 u=LV n=ansible | changed: [localhost] => (item=Alumno)
+2025-11-25 22:10:40,006 p=4326 u=LV n=ansible | changed: [localhost] => (item=Profesor)
+2025-11-25 22:10:40,016 p=4326 u=LV n=ansible | TASK [Otra tarea] ***********************************************************************************************************************************************************************************
+2025-11-25 22:10:40,029 p=4326 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2025-11-25 22:10:40,030 p=4326 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 22:10:40,030 p=4326 u=LV n=ansible | localhost                  : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2025-11-25 22:59:00,458 p=4875 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 22:59:00,556 p=4875 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 22:59:00,562 p=4875 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 22:59:01,757 p=4875 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:59:01,765 p=4875 u=LV n=ansible | TASK [include_role : 2PRecuperatorio] ***************************************************************************************************************************************************************
+2025-11-25 22:59:01,788 p=4875 u=LV n=ansible | included: 2PRecuperatorio for localhost
+2025-11-25 22:59:01,795 p=4875 u=LV n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] *******************************************************************************************************************************************************
+2025-11-25 22:59:01,808 p=4875 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2025-11-25 22:59:01,814 p=4875 u=LV n=ansible | TASK [2PRecuperatorio : creo Grupos] ****************************************************************************************************************************************************************
+2025-11-25 22:59:02,093 p=4875 u=LV n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-25 22:59:02,284 p=4875 u=LV n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-25 22:59:02,291 p=4875 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:59:02,633 p=4875 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:59:02,638 p=4875 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 22:59:02,874 p=4875 u=LV n=ansible | ok: [localhost]
+2025-11-25 22:59:02,884 p=4875 u=LV n=ansible | TASK [include_role : Crea_Carpetas_Velozo] **********************************************************************************************************************************************************
+2025-11-25 22:59:02,904 p=4875 u=LV n=ansible | included: Crea_Carpetas_Velozo for localhost
+2025-11-25 22:59:02,912 p=4875 u=LV n=ansible | TASK [Crea_Carpetas_Velozo : Crear directorios en el directorio raíz] *******************************************************************************************************************************
+2025-11-25 22:59:03,194 p=4875 u=LV n=ansible | ok: [localhost] => (item=Alumno)
+2025-11-25 22:59:03,376 p=4875 u=LV n=ansible | ok: [localhost] => (item=Profesor)
+2025-11-25 22:59:03,388 p=4875 u=LV n=ansible | TASK [include_role : Cambia_Propiedad_Velozo] *******************************************************************************************************************************************************
+2025-11-25 22:59:03,410 p=4875 u=LV n=ansible | included: Cambia_Propiedad_Velozo for localhost
+2025-11-25 22:59:03,418 p=4875 u=LV n=ansible | TASK [Cambia_Propiedad_Velozo : Cambiar propietario y grupo de /UTN/Alumno] *************************************************************************************************************************
+2025-11-25 22:59:03,615 p=4875 u=LV n=ansible | changed: [localhost]
+2025-11-25 22:59:03,622 p=4875 u=LV n=ansible | TASK [Cambia_Propiedad_Velozo : Cambiar propietario y grupo de /UTN/Profesor] ***********************************************************************************************************************
+2025-11-25 22:59:03,809 p=4875 u=LV n=ansible | changed: [localhost]
+2025-11-25 22:59:03,821 p=4875 u=LV n=ansible | TASK [include_role : Sudoers_Velozo] ****************************************************************************************************************************************************************
+2025-11-25 22:59:03,843 p=4875 u=LV n=ansible | included: Sudoers_Velozo for localhost
+2025-11-25 22:59:03,856 p=4875 u=LV n=ansible | TASK [Sudoers_Velozo : add NOPASSWD in sudores for group {{ GROUP_ADMIN }}] *************************************************************************************************************************
+2025-11-25 22:59:04,147 p=4875 u=LV n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Destination /etc/sudoers.d/desa does not exist !", "rc": 257}
+2025-11-25 22:59:04,148 p=4875 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 22:59:04,148 p=4875 u=LV n=ansible | localhost                  : ok=12   changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2025-11-25 23:21:41,917 p=5356 u=LV n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2025-11-25 23:21:42,020 p=5356 u=LV n=ansible | PLAY [localhost] ************************************************************************************************************************************************************************************
+2025-11-25 23:21:42,026 p=5356 u=LV n=ansible | TASK [Gathering Facts] ******************************************************************************************************************************************************************************
+2025-11-25 23:21:43,237 p=5356 u=LV n=ansible | ok: [localhost]
+2025-11-25 23:21:43,243 p=5356 u=LV n=ansible | TASK [include_role : 2PRecuperatorio] ***************************************************************************************************************************************************************
+2025-11-25 23:21:43,266 p=5356 u=LV n=ansible | included: 2PRecuperatorio for localhost
+2025-11-25 23:21:43,272 p=5356 u=LV n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] *******************************************************************************************************************************************************
+2025-11-25 23:21:43,285 p=5356 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2025-11-25 23:21:43,291 p=5356 u=LV n=ansible | TASK [2PRecuperatorio : creo Grupos] ****************************************************************************************************************************************************************
+2025-11-25 23:21:43,575 p=5356 u=LV n=ansible | ok: [localhost] => (item=GProfesores)
+2025-11-25 23:21:43,748 p=5356 u=LV n=ansible | ok: [localhost] => (item=GAlumnos)
+2025-11-25 23:21:43,755 p=5356 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 23:21:44,147 p=5356 u=LV n=ansible | ok: [localhost]
+2025-11-25 23:21:44,154 p=5356 u=LV n=ansible | TASK [2PRecuperatorio : creo usuarios Profesor] *****************************************************************************************************************************************************
+2025-11-25 23:21:44,392 p=5356 u=LV n=ansible | ok: [localhost]
+2025-11-25 23:21:44,402 p=5356 u=LV n=ansible | TASK [include_role : Crea_Carpetas_Velozo] **********************************************************************************************************************************************************
+2025-11-25 23:21:44,422 p=5356 u=LV n=ansible | included: Crea_Carpetas_Velozo for localhost
+2025-11-25 23:21:44,430 p=5356 u=LV n=ansible | TASK [Crea_Carpetas_Velozo : Crear directorios en el directorio raíz] *******************************************************************************************************************************
+2025-11-25 23:21:44,719 p=5356 u=LV n=ansible | ok: [localhost] => (item=Alumno)
+2025-11-25 23:21:44,909 p=5356 u=LV n=ansible | ok: [localhost] => (item=Profesor)
+2025-11-25 23:21:44,919 p=5356 u=LV n=ansible | TASK [include_role : Cambia_Propiedad_Velozo] *******************************************************************************************************************************************************
+2025-11-25 23:21:44,940 p=5356 u=LV n=ansible | included: Cambia_Propiedad_Velozo for localhost
+2025-11-25 23:21:44,949 p=5356 u=LV n=ansible | TASK [Cambia_Propiedad_Velozo : Cambiar propietario y grupo de /UTN/Alumno] *************************************************************************************************************************
+2025-11-25 23:21:45,152 p=5356 u=LV n=ansible | ok: [localhost]
+2025-11-25 23:21:45,159 p=5356 u=LV n=ansible | TASK [Cambia_Propiedad_Velozo : Cambiar propietario y grupo de /UTN/Profesor] ***********************************************************************************************************************
+2025-11-25 23:21:45,361 p=5356 u=LV n=ansible | ok: [localhost]
+2025-11-25 23:21:45,372 p=5356 u=LV n=ansible | TASK [include_role : Sudoers_Velozo] ****************************************************************************************************************************************************************
+2025-11-25 23:21:45,395 p=5356 u=LV n=ansible | included: Sudoers_Velozo for localhost
+2025-11-25 23:21:45,408 p=5356 u=LV n=ansible | TASK [Sudoers_Velozo : add NOPASSWD in sudores for group {{ GROUP_ADMIN }}] *************************************************************************************************************************
+2025-11-25 23:21:45,707 p=5356 u=LV n=ansible | changed: [localhost]
+2025-11-25 23:21:45,718 p=5356 u=LV n=ansible | TASK [Otra tarea] ***********************************************************************************************************************************************************************************
+2025-11-25 23:21:45,732 p=5356 u=LV n=ansible | ok: [localhost] => {
+    "msg": "Despues de la ejecucion del rol"
+}
+2025-11-25 23:21:45,733 p=5356 u=LV n=ansible | PLAY RECAP ******************************************************************************************************************************************************************************************
+2025-11-25 23:21:45,734 p=5356 u=LV n=ansible | localhost                  : ok=14   changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

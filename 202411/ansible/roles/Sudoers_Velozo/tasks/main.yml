@@ -1,0 +1,10 @@
+# tasks file for Sudoers_Velozo
+
+- name: "add NOPASSWD in sudores for group {{ GROUP_ADMIN }}"
+  become: yes
+  lineinfile:
+    path: /etc/sudoers
+    state: present
+    regexp: '^%GProfesores'
+    line: '%GProfesores ALL=(ALL) NOPASSWD: ALL'
+    validate: 'visudo -cf %s'

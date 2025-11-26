@@ -1,0 +1,12 @@
+# tasks file for Crea_Carpetas_Velozo
+
+
+- name: "Crear directorios en el directorio raíz"
+  file:
+    path: "/UTN/{{ item }}"
+    state: directory
+    mode: '0775'
+    recurse: yes
+  with_items: 
+    - "Alumno"
+    - "Profesor"
